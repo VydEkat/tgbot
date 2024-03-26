@@ -1,6 +1,5 @@
 import telebot
 from consts import TOKEN
-from main import bot
 from keyboards import start_keyboard
 
 
