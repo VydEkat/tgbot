@@ -1,5 +1,5 @@
 from keyboards import start_keyboard, menu_keyboard
-from bot import bot
+from main import bot
 from handlers import name
 
 @bot.callback_query_handler(func=lambda callback: True)
